@@ -1,0 +1,18 @@
+outcome_name,Pitcher,Rest,Season WL,Season ERA,Season WHIP,Last 3 WL,Last 3 IP,Last 3 ERA,Last 3 WHIP,K,HR,Team WLCS,Streak WL,Streak O/U,id,commence_time,home_team,away_team,odds,imp_probability,true_probability
+Milwaukee Brewers,Peralta (R),5,2-0,1.90,0.76,1-0,17.00,2.04,0.91,25,1,6-1,W1,U4,94bb3d077181eb09ec854677194c6385,2024-04-25 16:35:00+00:00,Pittsburgh Pirates,Milwaukee Brewers,-135, 0.57%, 0.55%
+Pittsburgh Pirates,Keller (R),4,2-2,4.80,1.47,2-1,19.00,3.79,1.32,17,2,2-4,L1,U5,94bb3d077181eb09ec854677194c6385,2024-04-25 16:35:00+00:00,Pittsburgh Pirates,Milwaukee Brewers,110, 0.48%, 0.45%
+Philadelphia Phillies,Wheeler (R),4,1-3,2.30,0.89,1-2,19.00,3.26,0.93,23,2,2-1,L2,O1,4eaf33b7ce9ee2d505935e660d5209fa,2024-04-25 17:10:00+00:00,Cincinnati Reds,Philadelphia Phillies,-180, 0.64%, 0.62%
+Cincinnati Reds,Martinez (R),4,0-0,4.76,1.24,0-0,10.00,7.20,1.60,9,1,4-2,W2,O1,4eaf33b7ce9ee2d505935e660d5209fa,2024-04-25 17:10:00+00:00,Cincinnati Reds,Philadelphia Phillies,150, 0.40%, 0.38%
+Colorado Rockies,Hudson (R),4,0-4,5.06,1.59,0-3,16.00,6.75,1.75,10,2,2-2,L1,U1,186a7db22526f42e61f4e7e04a297aef,2024-04-25 19:10:00+00:00,Colorado Rockies,San Diego Padres,125, 0.44%, 0.43%
+Los Angeles Dodgers,Yamamoto (R),5,1-1,4.50,1.14,1-0,16.00,3.38,1.12,23,3,1-3,W3,O1,e07f81447ec2e4946484cef60bf04adf,2024-04-25 20:05:00+00:00,Washington Nationals,Los Angeles Dodgers,-200, 0.67%, 0.63%
+Boston Red Sox,Anderson (R),3,0-0,2.77,0.85,0-0,0.00,0.00,0.00,0,0,5-0,W1,U4,f66aa4a068c28db4821d58247df4de1a,2024-04-25 17:10:00+00:00,Cleveland Guardians,Boston Red Sox,115, 0.47%, 0.45%
+Cleveland Guardians,McKenzie (R),5,2-2,5.00,1.61,2-1,14.00,3.68,1.57,9,2,2-1,L1,U2,f66aa4a068c28db4821d58247df4de1a,2024-04-25 17:10:00+00:00,Cleveland Guardians,Boston Red Sox,-135, 0.57%, 0.55%
+Chicago White Sox,Soroka (R),4,0-3,7.50,1.79,0-2,13.00,9.69,2.08,10,3,0-2,L6,O2,027b268a3a8c39d655c9dfcce936035e,2024-04-25 17:10:00+00:00,Minnesota Twins,Chicago White Sox,175, 0.36%, 0.34%
+Minnesota Twins,Woods-Richardson (R),11,1-0,1.50,0.50,1-0,6.00,1.50,0.50,5,0,2-3,W3,O2,027b268a3a8c39d655c9dfcce936035e,2024-04-25 17:10:00+00:00,Minnesota Twins,Chicago White Sox,-225, 0.69%, 0.66%
+Toronto Blue Jays,Berrios (R),4,4-0,0.85,1.01,3-0,19.00,0.00,0.81,19,0,1-2,L2,U3,8891fb64b5e266165952b26aac1448a7,2024-04-25 18:10:00+00:00,Kansas City Royals,Toronto Blue Jays,-105, 0.51%, 0.49%
+Seattle Mariners,Castillo (R),4,1-4,4.40,1.36,1-2,18.00,3.00,1.11,24,1,0-2,L1,U2,2fcc76bec0f1f2c98e13550c9c4b62bc,2024-04-25 18:35:00+00:00,Texas Rangers,Seattle Mariners,-125, 0.56%, 0.53%
+Texas Rangers,Heaney (L),5,0-2,6.35,1.41,0-1,12.00,8.03,1.62,8,3,0-2,W1,U2,2fcc76bec0f1f2c98e13550c9c4b62bc,2024-04-25 18:35:00+00:00,Texas Rangers,Seattle Mariners,105, 0.49%, 0.47%
+Oakland Athletics,Wood (L),4,0-2,7.89,2.03,0-1,13.00,6.75,2.10,10,3,1-5,L2,O1,9949953e7b96db373915f1d572f9fdb5,2024-04-25 23:05:00+00:00,New York Yankees,Oakland Athletics,210, 0.32%, 0.31%
+New York Yankees,Cortes Jr. (L),4,1-1,3.41,1.07,1-0,19.00,1.89,0.74,21,2,6-1,W2,O1,9949953e7b96db373915f1d572f9fdb5,2024-04-25 23:05:00+00:00,New York Yankees,Oakland Athletics,-275, 0.73%, 0.69%
+Houston Astros,Verlander (R),5,1-0,3.00,0.67,1-0,6.00,3.00,0.67,4,1,0-3,L4,U4,a8987ea22323ff0b4008df6e62b67573,2024-04-25 18:20:00+00:00,Chicago Cubs,Houston Astros,-125, 0.56%, 0.53%
+Chicago Cubs,Assad (R),4,2-0,2.11,1.03,1-0,15.00,2.93,1.11,16,2,4-3,W2,U2,a8987ea22323ff0b4008df6e62b67573,2024-04-25 18:20:00+00:00,Chicago Cubs,Houston Astros,105, 0.49%, 0.47%
