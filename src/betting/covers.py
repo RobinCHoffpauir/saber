@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 import requests
 import pandas as pd
-import src.betting.odds as odds
+import odds
 from helpers import *
 from datetime import datetime
 

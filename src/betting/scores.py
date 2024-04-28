@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timedelta
 import pandas as pd
 import json 
-import src.betting.odds as odds, helpers, src.betting.scores as scores
+import odds, helpers, scores
 def extract_scores(row):
     scores = row['scores']  # Assume it's already a list of dictionaries
     home_score = None

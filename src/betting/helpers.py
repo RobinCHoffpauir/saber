@@ -1,5 +1,5 @@
 import sqlite3
-import pandas as pd, pybaseball as pyb, matplotlib.pyplot as plt, seaborn as sns, mlbgame as mlb
+import pandas as pd, pybaseball as pyb, matplotlib.pyplot as plt, seaborn as sns
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
@@ -12,7 +12,7 @@ import os
 import pickle
 import numpy as np
 from collections import defaultdict
-import src.betting.covers as covers, src.betting.scores as scores, src.betting.odds as odds
+import covers , scores , odds
 today = datetime.today()
 yesterday = (today - timedelta(days=1))
 DATE = today.strftime('%Y-%m-%d')
