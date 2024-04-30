@@ -2,15 +2,26 @@ import pandas as pd
 import pybaseball as pyb
 from collections import defaultdict
 import os
-from Betting.utils import *
+from helpers import *
 setup_logging()
+import sqlite3 as sql
 
 
+conn = sql.connect('../../data/databases/Final_Data.db')
+cursor = conn.cursor()
+query = """SELECT * FROM final_data"""
+
+df = pd.read_sql(query, conn)
+
+conn.close()
+# %%
 pyb.cache.enable()
+
 
 id_changes = {
     'ANA': 'LAA',
     'TBD': 'TBR',
+    'MON': 'WSN',
     # Continue to add any further changes here
 }
 
@@ -26,12 +37,7 @@ for year in range(2000, 2024):
 
     current_elo_ratings = new_elo_ratings
 
-    for team in pyb.team_ids(year)['teamIDBR']:
-        sched = pyb.team_results.schedule_and_record(year, team)
-        df = pd.DataFrame(sched)
-        df["win_loss"] = df["W/L"]
-        del df["W/L"]
-
+    for team in teams:     
         for row in df.itertuples():
             if row.win_loss in ["W", "W-wo"]:
                 winner, loser = row.Opp, team
