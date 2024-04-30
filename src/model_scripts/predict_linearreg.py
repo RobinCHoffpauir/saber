@@ -1,3 +1,4 @@
+#%%
 from pybaseball import fg_team_fielding_data, fg_team_pitching_data
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
@@ -19,8 +20,9 @@ team_stats = pd.merge(team_pitching_data,team_fielding_data, left_on=['Season', 
 # Rename columns for clarity
 team_stats.rename(columns={'WAR': 'WAR_hitting', 'WAR_pitching': 'WAR_pitching', 'DRS': 'DRS_fielding'}, inplace=True)
 #%%
-X = team_stats.drop(columns=['R', 'RA'], axis=1)
-y = team_stats['R'] - team_stats['RA']
+team_stats['RDiff'] = team_stats['R'] - team_stats['RA']
+X = team_stats.drop(columns=['RDiff','R', 'RA'], axis=1)
+y = team_stats['RDiff']
 
 
 #%%

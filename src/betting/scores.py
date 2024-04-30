@@ -42,7 +42,7 @@ def retrieve_scores():
 
         games = response.json()
         games_df = pd.DataFrame(games)
-        preview = pd.read_csv(f'data/preview/{yesterday_str}_preview.csv')
+        preview = pd.read_csv(f'../../data/preview/{yesterday_str}_preview.csv')
         # Filter the DataFrame to only include rows where 'completed' is True
         completed_games_df = games_df[games_df['completed'] == True]
 
@@ -60,7 +60,7 @@ def retrieve_scores():
         print(f"Quota remaining: {response.headers['x-quota-remaining']}")
 
     completed_games_df = completed_games_df.drop(['completed','sport_key','sport_title','last_update','scores'],axis=1)
-    completed_games_df.to_csv(f'data/scores/{yesterday_str}_scores.csv')
+    completed_games_df.to_csv(f'../../data/scores/{yesterday_str}_scores.csv')
     print('Completed games and scores saved to data/scores/')
     
 def main():

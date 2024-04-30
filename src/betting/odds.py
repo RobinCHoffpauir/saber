@@ -122,7 +122,7 @@ def get_data_odds():
     df['commence_time'] = pd.to_datetime(df['commence_time'])
    
     #save data to csv
-    df.to_csv(f'data/odds/{str(DATE)}_odds.csv', index=False)
+    df.to_csv(f'../../data/odds/{str(DATE)}_odds.csv', index=False)
        
        
 def main():

@@ -7,6 +7,39 @@ import odds
 from helpers import *
 from datetime import datetime
 
+global team_names
+team_names = team_names = {
+    'BOS': 'Boston Red Sox',
+    'NYY': 'New York Yankees',
+    'TBR': 'Tampa Bay Rays',
+    'KCR': 'Kansas City Royals',
+    'CHW': 'Chicago White Sox',
+    'BAL': 'Baltimore Orioles',
+    'CLE': 'Cleveland Guardians',  # Updated from Indians
+    'MIN': 'Minnesota Twins',
+    'DET': 'Detroit Tigers',
+    'HOU': 'Houston Astros',
+    'LAA': 'Los Angeles Angels',
+    'SEA': 'Seattle Mariners',
+    'TEX': 'Texas Rangers',
+    'OAK': 'Oakland Athletics',
+    'WSN': 'Washington Nationals',
+    'MIA': 'Miami Marlins',
+    'ATL': 'Atlanta Braves',
+    'NYM': 'New York Mets',
+    'PHI': 'Philadelphia Phillies',
+    'CHC': 'Chicago Cubs',
+    'MIL': 'Milwaukee Brewers',
+    'STL': 'St. Louis Cardinals',
+    'PIT': 'Pittsburgh Pirates',
+    'CIN': 'Cincinnati Reds',
+    'LAD': 'Los Angeles Dodgers',
+    'ARI': 'Arizona Diamondbacks',
+    'COL': 'Colorado Rockies',
+    'SDP': 'San Diego Padres',
+    'SFG': 'San Francisco Giants',
+    'TOR': 'Toronto Blue Jays'
+}
 
 
 def get_covers():
@@ -48,11 +81,11 @@ def get_covers():
     # Show the resulting DataFrame
     
     # This will show the first few rows, use df to show the full DataFrame
-    odds = pd.read_csv(f'./data/odds/{str(today_str)}_odds.csv')
+    odds = pd.read_csv(f'../../data/odds/{str(today_str)}_odds.csv')
     merged_df = pd.merge(df, odds, on=['outcome_name'])
     merged_df.index = merged_df['outcome_name']
     merged_df = merged_df.drop('outcome_name',axis=1)
-    merged_df.to_csv(f'./data/preview/{str(today_str)}_preview.csv')
+    merged_df.to_csv(f'../../data/preview/{str(today_str)}_preview.csv')
     print('Merged DataFrame and saved to csv: Completed!')
 
 def main():
