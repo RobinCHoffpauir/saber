@@ -28,7 +28,7 @@ def update_elo(winner_elo, loser_elo, k_factor):
 
 
 # Get the MLB schedule and record for the current year
-for yr in range(2000,2023):
+for yr in range(2023, 2025):
     year = yr
     elo_dict = defaultdict(lambda: 1500)  # Teams start with a ELO of 1500
 
@@ -81,11 +81,11 @@ for yr in range(2000,2023):
                 winner, loser = team, row.Opp
             # Update the ELO ratings of the teams
             # Increase the k-factor for the most recent 15 games
-            k_factor = 30 if i >= len(df) - 15 else 20
+            k_factor = 30 if i >= len(df) - 15 else 50
             # Update the ELO ratings of the teams
             elo_dict[winner], elo_dict[loser] = update_elo(
                 elo_dict[winner], elo_dict[loser], 50
             )  # 20 is the k-factor
 
-        df = pd.DataFrame(list(elo_dict.items()), columns=["Team", f"ELO .0"])
-        df.to_csv(f'../data/elo/{year}_elo.csv')
+        df = pd.DataFrame(list(elo_dict.items()), columns=["Team", f"ELO"])
+        df.to_csv(f'../../../../data/elo/{year}_elo.csv')

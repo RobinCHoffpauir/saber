@@ -498,6 +498,46 @@ def get_roster_dfs():
         data = cursor.fetchall()
         team = pd.DataFrame(data=data, columns= cols) 
 
+def elo_to_odds(elo_a, elo_b):
+    """
+    Converts Elo ratings for two teams into betting odds.
+
+    This function calculates the probability of each team winning based on their Elo ratings and then converts these probabilities into betting odds. The odds are presented in the American format, where positive values indicate how much profit you would make on a $100 bet, and negative values indicate how much you need to bet to make a $100 profit.
+
+    Parameters:
+    - elo_a (float): The Elo rating of Team A.
+    - elo_b (float): The Elo rating of Team B.
+
+    Returns:
+    - tuple: A tuple containing the betting odds for Team A and Team B, respectively. Odds are formatted as floats and represent the American odds format.
+
+    Example:
+    >>> elo_to_odds(1500, 1400)
+    (-200.0, 200.0)
+    """
+    # Calculate probability of Team A winning
+    prob_a_wins = 1 / (1 + 10 ** ((elo_b - elo_a) / 400))
+    # Odds for Team A
+    odds_a = -((prob_a_wins / (1 - prob_a_wins)) * 100) if prob_a_wins > 0.5 else ((1 - prob_a_wins) / prob_a_wins * 100)
+    # Odds for Team B
+    odds_b = -((1 - prob_a_wins) / prob_a_wins * 100) if (1 - prob_a_wins) > 0.5 else ((prob_a_wins / (1 - prob_a_wins)) * 100)
+    return odds_a, odds_b
+def calculate_odds_for_dataframe(df):
+    # Initialize the column for odds
+    df['elo_odds'] = None
+    
+    # Process each group (each group is a matchup)
+    for match_id, group in df.groupby('id'):
+        if len(group) == 2:
+            team_a, team_b = group.index
+            elo_a, elo_b = group.loc[team_a, 'ELO'], group.loc[team_b, 'ELO']
+            odds_a, odds_b = elo_to_odds(elo_a, elo_b)
+            df.loc[team_a, 'elo_odds'] = odds_a
+            df.loc[team_b, 'elo_odds'] = odds_b
+        else:
+            print(f"Warning: Matchup ID {match_id} does not have exactly two teams.")
+    
+    return df
 
 ################################################################################
 #Variables
