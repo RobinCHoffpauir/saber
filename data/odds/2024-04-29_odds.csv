@@ -3,22 +3,22 @@ id,commence_time,home_team,away_team,outcome_name,odds,imp_probability,true_prob
 06e1d7be0ae5e26c3780cfbf505aa025,2024-04-30 23:10:00+00:00,New York Mets,Chicago Cubs,New York Mets,-135.0, 0.57%, 0.55%
 22189c41f4236371d7710e295986ae80,2024-04-30 22:35:00+00:00,Baltimore Orioles,New York Yankees,Baltimore Orioles,100.0, 0.50%, 0.48%
 22189c41f4236371d7710e295986ae80,2024-04-30 22:35:00+00:00,Baltimore Orioles,New York Yankees,New York Yankees,-120.0, 0.55%, 0.52%
-438c3e92abced075ef6d39296f95c1e4,2024-04-30 01:40:00+00:00,Oakland Athletics,Pittsburgh Pirates,Oakland Athletics,-120.0, 0.55%, 0.52%
-438c3e92abced075ef6d39296f95c1e4,2024-04-30 01:40:00+00:00,Oakland Athletics,Pittsburgh Pirates,Pittsburgh Pirates,100.0, 0.50%, 0.48%
+438c3e92abced075ef6d39296f95c1e4,2024-04-30 01:40:00+00:00,Oakland Athletics,Pittsburgh Pirates,Oakland Athletics,100.0, 0.50%, 0.48%
+438c3e92abced075ef6d39296f95c1e4,2024-04-30 01:40:00+00:00,Oakland Athletics,Pittsburgh Pirates,Pittsburgh Pirates,-120.0, 0.55%, 0.52%
 444f009e102a9b39db8d44147109f370,2024-04-30 23:40:00+00:00,Chicago White Sox,Minnesota Twins,Chicago White Sox,140.0, 0.42%, 0.40%
 444f009e102a9b39db8d44147109f370,2024-04-30 23:40:00+00:00,Chicago White Sox,Minnesota Twins,Minnesota Twins,-170.0, 0.63%, 0.60%
-4f6a1311997482f3e7ab21eb4ad3d1fe,2024-04-30 01:40:00+00:00,San Diego Padres,Cincinnati Reds,Cincinnati Reds,-250.0, 0.71%, 0.67%
-4f6a1311997482f3e7ab21eb4ad3d1fe,2024-04-30 01:40:00+00:00,San Diego Padres,Cincinnati Reds,San Diego Padres,190.0, 0.34%, 0.33%
-57d42400ea5a362a2e96758bae65ae13,2024-04-30 01:38:00+00:00,Los Angeles Angels,Philadelphia Phillies,Los Angeles Angels,145.0, 0.41%, 0.39%
-57d42400ea5a362a2e96758bae65ae13,2024-04-30 01:38:00+00:00,Los Angeles Angels,Philadelphia Phillies,Philadelphia Phillies,-175.0, 0.64%, 0.61%
+4f6a1311997482f3e7ab21eb4ad3d1fe,2024-04-30 01:40:00+00:00,San Diego Padres,Cincinnati Reds,Cincinnati Reds,-325.0, 0.76%, 0.72%
+4f6a1311997482f3e7ab21eb4ad3d1fe,2024-04-30 01:40:00+00:00,San Diego Padres,Cincinnati Reds,San Diego Padres,240.0, 0.29%, 0.28%
+57d42400ea5a362a2e96758bae65ae13,2024-04-30 01:38:00+00:00,Los Angeles Angels,Philadelphia Phillies,Los Angeles Angels,135.0, 0.43%, 0.41%
+57d42400ea5a362a2e96758bae65ae13,2024-04-30 01:38:00+00:00,Los Angeles Angels,Philadelphia Phillies,Philadelphia Phillies,-165.0, 0.62%, 0.59%
 5e5871f137cdb33bf0798bbc1f67d5bc,2024-04-29 23:40:00+00:00,Chicago White Sox,Minnesota Twins,Chicago White Sox,900.0, 0.10%, 0.09%
 5e5871f137cdb33bf0798bbc1f67d5bc,2024-04-29 23:40:00+00:00,Chicago White Sox,Minnesota Twins,Minnesota Twins,-2500.0, 0.96%, 0.91%
 6143aaa999112d26321d962aae4978b4,2024-04-30 23:07:00+00:00,Toronto Blue Jays,Kansas City Royals,Kansas City Royals,115.0, 0.47%, 0.45%
 6143aaa999112d26321d962aae4978b4,2024-04-30 23:07:00+00:00,Toronto Blue Jays,Kansas City Royals,Toronto Blue Jays,-135.0, 0.57%, 0.55%
 6597a4a050842bf997c6a37eb11ca1cc,2024-05-01 01:40:00+00:00,Oakland Athletics,Pittsburgh Pirates,Oakland Athletics,115.0, 0.47%, 0.45%
 6597a4a050842bf997c6a37eb11ca1cc,2024-05-01 01:40:00+00:00,Oakland Athletics,Pittsburgh Pirates,Pittsburgh Pirates,-135.0, 0.57%, 0.55%
-8307afe26210b8f7398d9a94e767904a,2024-04-30 01:39:59+00:00,Arizona Diamondbacks,Los Angeles Dodgers,Arizona Diamondbacks,140.0, 0.42%, 0.40%
-8307afe26210b8f7398d9a94e767904a,2024-04-30 01:39:59+00:00,Arizona Diamondbacks,Los Angeles Dodgers,Los Angeles Dodgers,-170.0, 0.63%, 0.60%
+8307afe26210b8f7398d9a94e767904a,2024-04-30 01:39:59+00:00,Arizona Diamondbacks,Los Angeles Dodgers,Arizona Diamondbacks,175.0, 0.36%, 0.34%
+8307afe26210b8f7398d9a94e767904a,2024-04-30 01:39:59+00:00,Arizona Diamondbacks,Los Angeles Dodgers,Los Angeles Dodgers,-225.0, 0.69%, 0.66%
 a927c93ad18150e8e2ac071a11810087,2024-04-30 01:40:00+00:00,Seattle Mariners,Atlanta Braves,Atlanta Braves,-125.0, 0.56%, 0.53%
 a927c93ad18150e8e2ac071a11810087,2024-04-30 01:40:00+00:00,Seattle Mariners,Atlanta Braves,Seattle Mariners,105.0, 0.49%, 0.47%
 a9533d57587d7f36d35f93840e7cfcf0,2024-04-30 23:10:00+00:00,Boston Red Sox,San Francisco Giants,Boston Red Sox,110.0, 0.48%, 0.45%

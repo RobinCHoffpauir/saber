@@ -74,11 +74,18 @@ def get_covers():
         'K', 'HR', 'Team WLCS', 'Streak WL', 'Streak O/U'
     ]
 
+    # Create a dataframe importing the CSV file from ../data/elo/2024_elo.csv
+    elo = pd.read_csv(f'../../data/elo/2024_elo.csv')
+
     # Create a DataFrame using table_data
     df = pd.DataFrame(table_data, columns=columns)
+    df = pd.merge(df, elo, on='Team')
+    
     df['outcome_name'] = df['Team'].map(team_names)
     df = df.drop(['Game Number','Team'],axis=1)
-    # Show the resulting DataFrame
+    df.to_csv(f'../../data/covers/{str(today_str)}_covers.csv')
+    
+    
     
     # This will show the first few rows, use df to show the full DataFrame
     odds = pd.read_csv(f'../../data/odds/{str(today_str)}_odds.csv')
