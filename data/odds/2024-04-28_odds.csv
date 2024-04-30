@@ -1,0 +1,29 @@
+id,commence_time,home_team,away_team,outcome_name,odds,imp_probability,true_probability
+198012eb6ac4ff5ddbd1a819bdfa12b6,2024-04-28 23:10:00+00:00,Boston Red Sox,Chicago Cubs,Boston Red Sox,-135, 0.57%, 0.55%
+198012eb6ac4ff5ddbd1a819bdfa12b6,2024-04-28 23:10:00+00:00,Boston Red Sox,Chicago Cubs,Chicago Cubs,110, 0.48%, 0.45%
+1b2ec4ace33a165dc62ccc9a9d77a41f,2024-04-28 18:10:00+00:00,Chicago White Sox,Tampa Bay Rays,Chicago White Sox,155, 0.39%, 0.37%
+1b2ec4ace33a165dc62ccc9a9d77a41f,2024-04-28 18:10:00+00:00,Chicago White Sox,Tampa Bay Rays,Tampa Bay Rays,-190, 0.66%, 0.63%
+22030962895d5172c28c42742a4b5a8d,2024-04-28 20:05:00+00:00,Colorado Rockies,Houston Astros,Colorado Rockies,170, 0.37%, 0.35%
+22030962895d5172c28c42742a4b5a8d,2024-04-28 20:05:00+00:00,Colorado Rockies,Houston Astros,Houston Astros,-220, 0.69%, 0.65%
+4b78269d847fc4fb3836ba51821ce900,2024-04-28 17:35:00+00:00,Baltimore Orioles,Oakland Athletics,Baltimore Orioles,-180, 0.64%, 0.62%
+4b78269d847fc4fb3836ba51821ce900,2024-04-28 17:35:00+00:00,Baltimore Orioles,Oakland Athletics,Oakland Athletics,150, 0.40%, 0.38%
+56b79cf7bbbbdfda9e9c352917a43b20,2024-04-28 18:10:00+00:00,Milwaukee Brewers,New York Yankees,Milwaukee Brewers,110, 0.48%, 0.45%
+56b79cf7bbbbdfda9e9c352917a43b20,2024-04-28 18:10:00+00:00,Milwaukee Brewers,New York Yankees,New York Yankees,-135, 0.57%, 0.55%
+5762775262003c2e5fc263e22450ba44,2024-04-28 20:07:00+00:00,Los Angeles Angels,Minnesota Twins,Los Angeles Angels,-105, 0.51%, 0.49%
+5762775262003c2e5fc263e22450ba44,2024-04-28 20:07:00+00:00,Los Angeles Angels,Minnesota Twins,Minnesota Twins,-115, 0.53%, 0.51%
+78743e6767eda67699e8c8443fedb05d,2024-04-28 20:10:00+00:00,Seattle Mariners,Arizona Diamondbacks,Arizona Diamondbacks,115, 0.47%, 0.45%
+78743e6767eda67699e8c8443fedb05d,2024-04-28 20:10:00+00:00,Seattle Mariners,Arizona Diamondbacks,Seattle Mariners,-135, 0.57%, 0.55%
+8ce7ae7579c45b492e6d308da8d328f2,2024-04-28 17:35:00+00:00,Atlanta Braves,Cleveland Guardians,Atlanta Braves,-175, 0.64%, 0.61%
+8ce7ae7579c45b492e6d308da8d328f2,2024-04-28 17:35:00+00:00,Atlanta Braves,Cleveland Guardians,Cleveland Guardians,145, 0.41%, 0.39%
+8dd791badcbc7164ee41bd454a1a1ae5,2024-04-28 17:40:00+00:00,New York Mets,St. Louis Cardinals,New York Mets,-120, 0.55%, 0.52%
+8dd791badcbc7164ee41bd454a1a1ae5,2024-04-28 17:40:00+00:00,New York Mets,St. Louis Cardinals,St. Louis Cardinals,100, 0.50%, 0.48%
+a7dd725d6027c0243fdf478964e68755,2024-04-28 17:40:00+00:00,Miami Marlins,Washington Nationals,Miami Marlins,-145, 0.59%, 0.57%
+a7dd725d6027c0243fdf478964e68755,2024-04-28 17:40:00+00:00,Miami Marlins,Washington Nationals,Washington Nationals,120, 0.45%, 0.43%
+b7556134b71ca891e058a3c793334532,2024-04-28 18:35:00+00:00,Texas Rangers,Cincinnati Reds,Cincinnati Reds,110, 0.48%, 0.45%
+b7556134b71ca891e058a3c793334532,2024-04-28 18:35:00+00:00,Texas Rangers,Cincinnati Reds,Texas Rangers,-135, 0.57%, 0.55%
+bb10ffc230c7f4ce1c6ad6e72551b537,2024-04-28 20:05:00+00:00,San Francisco Giants,Pittsburgh Pirates,Pittsburgh Pirates,-105, 0.51%, 0.49%
+bb10ffc230c7f4ce1c6ad6e72551b537,2024-04-28 20:05:00+00:00,San Francisco Giants,Pittsburgh Pirates,San Francisco Giants,-115, 0.53%, 0.51%
+cc2e43ae2f1eb0a88ada58db941f6bcc,2024-04-28 20:10:00+00:00,San Diego Padres,Philadelphia Phillies,Philadelphia Phillies,110, 0.48%, 0.45%
+cc2e43ae2f1eb0a88ada58db941f6bcc,2024-04-28 20:10:00+00:00,San Diego Padres,Philadelphia Phillies,San Diego Padres,-135, 0.57%, 0.55%
+f3dd915bb7c53b7b5fcda33481bb2474,2024-04-28 17:40:00+00:00,Detroit Tigers,Kansas City Royals,Detroit Tigers,-155, 0.61%, 0.58%
+f3dd915bb7c53b7b5fcda33481bb2474,2024-04-28 17:40:00+00:00,Detroit Tigers,Kansas City Royals,Kansas City Royals,130, 0.43%, 0.42%

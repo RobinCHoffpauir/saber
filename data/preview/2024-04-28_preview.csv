@@ -1,0 +1,23 @@
+outcome_name,Pitcher,Rest,Season WL,Season ERA,Season WHIP,Last 3 WL,Last 3 IP,Last 3 ERA,Last 3 WHIP,K,HR,Team WLCS,Streak WL,Streak O/U,id,commence_time,home_team,away_team,odds,imp_probability,true_probability
+St. Louis Cardinals,Gray (R),5,2-1,1.04,0.87,2-1,17.00,1.04,0.87,23,0,0-5,W2,U2,8dd791badcbc7164ee41bd454a1a1ae5,2024-04-28 17:40:00+00:00,New York Mets,St. Louis Cardinals,100, 0.50%, 0.48%
+New York Mets,Houser (R),5,0-2,7.45,1.76,0-2,14.00,9.42,1.95,9,1,3-5,L1,U1,8dd791badcbc7164ee41bd454a1a1ae5,2024-04-28 17:40:00+00:00,New York Mets,St. Louis Cardinals,-120, 0.55%, 0.52%
+Miami Marlins,Cabrera (R),5,1-0,3.27,1.45,1-0,11.00,3.27,1.45,17,0,1-6,L4,U4,a7dd725d6027c0243fdf478964e68755,2024-04-28 17:40:00+00:00,Miami Marlins,Washington Nationals,-145, 0.59%, 0.57%
+Philadelphia Phillies,Suarez (L),4,4-0,1.36,0.70,3-0,22.00,0.00,0.68,21,0,4-3,W2,O1,cc2e43ae2f1eb0a88ada58db941f6bcc,2024-04-28 20:10:00+00:00,San Diego Padres,Philadelphia Phillies,110, 0.48%, 0.45%
+Pittsburgh Pirates,Perez (L),5,1-1,3.45,1.43,0-1,17.00,4.08,1.36,15,0,2-5,L3,U1,bb10ffc230c7f4ce1c6ad6e72551b537,2024-04-28 20:05:00+00:00,San Francisco Giants,Pittsburgh Pirates,-105, 0.51%, 0.49%
+Oakland Athletics,Sears (L),4,1-1,3.38,1.05,1-0,17.00,0.52,0.75,14,0,4-2,W2,U2,4b78269d847fc4fb3836ba51821ce900,2024-04-28 17:35:00+00:00,Baltimore Orioles,Oakland Athletics,150, 0.40%, 0.38%
+Baltimore Orioles,Irvin (L),5,1-1,4.64,1.45,1-0,16.00,3.86,1.35,10,2,5-2,L1,U1,4b78269d847fc4fb3836ba51821ce900,2024-04-28 17:35:00+00:00,Baltimore Orioles,Oakland Athletics,-180, 0.64%, 0.62%
+Detroit Tigers,Mize (R),5,1-0,2.95,1.22,1-0,17.00,2.12,1.12,12,1,1-1,L2,O2,f3dd915bb7c53b7b5fcda33481bb2474,2024-04-28 17:40:00+00:00,Detroit Tigers,Kansas City Royals,-155, 0.61%, 0.58%
+Chicago White Sox,Cannon (R),4,0-1,7.27,1.62,0-1,8.00,7.27,1.62,8,0,2-2,W1,O4,1b2ec4ace33a165dc62ccc9a9d77a41f,2024-04-28 18:10:00+00:00,Chicago White Sox,Tampa Bay Rays,155, 0.39%, 0.37%
+Minnesota Twins,Paddack (R),4,1-1,5.57,1.67,1-1,17.00,5.82,1.59,17,3,1-3,W5,U1,5762775262003c2e5fc263e22450ba44,2024-04-28 20:07:00+00:00,Los Angeles Angels,Minnesota Twins,-115, 0.53%, 0.51%
+Los Angeles Angels,Soriano (R),5,0-3,3.43,1.19,0-2,15.00,3.00,1.20,19,1,3-4,L2,U1,5762775262003c2e5fc263e22450ba44,2024-04-28 20:07:00+00:00,Los Angeles Angels,Minnesota Twins,-105, 0.51%, 0.49%
+Cincinnati Reds,Greene (R),4,0-2,4.55,1.30,0-2,17.00,5.82,1.35,23,2,3-1,L2,U2,b7556134b71ca891e058a3c793334532,2024-04-28 18:35:00+00:00,Texas Rangers,Cincinnati Reds,110, 0.48%, 0.45%
+Texas Rangers,Lorenzen (R),5,2-0,2.45,1.27,2-0,11.00,2.45,1.27,11,1,0-3,W1,U4,b7556134b71ca891e058a3c793334532,2024-04-28 18:35:00+00:00,Texas Rangers,Cincinnati Reds,-135, 0.57%, 0.55%
+Chicago Cubs,Brown (R),3,0-0,3.72,1.03,0-0,10.00,0.84,0.66,9,0,3-1,W4,O1,198012eb6ac4ff5ddbd1a819bdfa12b6,2024-04-28 23:10:00+00:00,Boston Red Sox,Chicago Cubs,110, 0.48%, 0.45%
+Boston Red Sox,Winckowski (R),5,1-1,4.20,1.80,0-0,3.00,2.70,0.90,1,0,2-3,L2,O2,198012eb6ac4ff5ddbd1a819bdfa12b6,2024-04-28 23:10:00+00:00,Boston Red Sox,Chicago Cubs,-135, 0.57%, 0.55%
+Houston Astros,Blanco (R),6,2-0,1.33,0.85,1-0,18.00,2.00,1.17,15,1,0-0,L5,U5,22030962895d5172c28c42742a4b5a8d,2024-04-28 20:05:00+00:00,Colorado Rockies,Houston Astros,-220, 0.69%, 0.65%
+Colorado Rockies,Quantrill (R),5,0-2,4.33,1.48,0-1,18.00,2.00,1.22,11,2,0-0,W1,O1,22030962895d5172c28c42742a4b5a8d,2024-04-28 20:05:00+00:00,Colorado Rockies,Houston Astros,170, 0.37%, 0.35%
+New York Yankees,Rodon (L),4,1-1,2.70,1.35,1-1,17.00,2.65,1.12,15,0,4-2,L2,O1,56b79cf7bbbbdfda9e9c352917a43b20,2024-04-28 18:10:00+00:00,Milwaukee Brewers,New York Yankees,-135, 0.57%, 0.55%
+Milwaukee Brewers,Ross (R),4,1-2,4.05,1.55,1-2,16.00,4.96,1.47,15,1,2-3,W3,O2,56b79cf7bbbbdfda9e9c352917a43b20,2024-04-28 18:10:00+00:00,Milwaukee Brewers,New York Yankees,110, 0.48%, 0.45%
+Cleveland Guardians,Bibee (R),5,2-0,4.44,1.60,1-0,15.00,4.80,1.53,13,3,4-3,L1,U1,8ce7ae7579c45b492e6d308da8d328f2,2024-04-28 17:35:00+00:00,Atlanta Braves,Cleveland Guardians,145, 0.41%, 0.39%
+Atlanta Braves,Morton (R),6,2-0,4.70,1.26,1-0,17.00,6.23,1.38,16,2,9-2,W4,U4,8ce7ae7579c45b492e6d308da8d328f2,2024-04-28 17:35:00+00:00,Atlanta Braves,Cleveland Guardians,-175, 0.64%, 0.61%
+Seattle Mariners,Kirby (R),5,2-2,5.33,1.30,1-1,15.00,4.20,1.27,16,2,7-3,W2,U4,78743e6767eda67699e8c8443fedb05d,2024-04-28 20:10:00+00:00,Seattle Mariners,Arizona Diamondbacks,-135, 0.57%, 0.55%
