@@ -1,14 +1,13 @@
-# Import required libraries
+#%% Import required libraries
 from bs4 import BeautifulSoup
 
 import requests
 import pandas as pd
-import odds
+import covers
 from helpers import *
 from datetime import datetime
 
-global team_names
-team_names = team_names = {
+team_names = {
     'BOS': 'Boston Red Sox',
     'NYY': 'New York Yankees',
     'TBR': 'Tampa Bay Rays',
@@ -80,6 +79,7 @@ def get_covers():
     # Create a DataFrame using table_data
     df = pd.DataFrame(table_data, columns=columns)
     df = pd.merge(df, elo, on='Team')
+    df['ELO'] = df['ELO'].round(0)
     
     df['outcome_name'] = df['Team'].map(team_names)
     df = df.drop(['Game Number','Team'],axis=1)
@@ -90,9 +90,15 @@ def get_covers():
     # This will show the first few rows, use df to show the full DataFrame
     odds = pd.read_csv(f'../../data/odds/{str(today_str)}_odds.csv')
     merged_df = pd.merge(df, odds, on=['outcome_name'])
-    merged_df.index = merged_df['outcome_name']
-    merged_df = merged_df.drop('outcome_name',axis=1)
-    merged_df.to_csv(f'../../data/preview/{str(today_str)}_preview.csv')
+    merged_df = merged_df.drop(['Unnamed: 0'],axis=1)
+    sorted_cols = ['id','outcome_name','commence_time','odds','Streak WL','Streak O/U','true_probability',
+                   'ELO', 'Pitcher', 'Rest', 'Season WL', 'Season ERA','Season WHIP',
+                   'Last 3 WL', 'Last 3 IP', 'Last 3 ERA', 'Last 3 WHIP','K', 'HR', 
+                   'Team WLCS','home_team', 'away_team']
+    merged_df = merged_df[sorted_cols]
+    multimerged_df = merged_df.set_index(['id','outcome_name'])
+    print(multimerged_df)
+    multimerged_df.to_csv(f'../../data/preview/{str(today_str)}_preview.csv', index=True)
     print('Merged DataFrame and saved to csv: Completed!')
 
 def main():
@@ -103,3 +109,4 @@ if __name__ == '__main__':
     main()
     
     
+# %%

@@ -76,12 +76,12 @@ def get_covers():
     df['outcome_name'] = df['Team'].map(team_names)
     df = df.drop(['Game Number','Team'],axis=1)
     # Show the resulting DataFrame
-    df.to_csv(f'data/covers/{yesterday_str}_covers.csv')  # This will show the first few rows, use df to show the full DataFrame
+    df.to_csv(f'../../data/covers/{yesterday_str}_covers.csv')  # This will show the first few rows, use df to show the full DataFrame
     odds = pd.read_csv(f'data/odds/{yesterday_str}_odds.csv')
     merged_df = pd.merge(df, odds, on=['outcome_name'])
     merged_df.index = merged_df['outcome_name']
     merged_df = merged_df.drop('outcome_name',axis=1)
-    merged_df.to_csv(f'data/preview/{yesterday_str}_preview.csv')
+    merged_df.to_csv(f'../../data/preview/{yesterday_str}_preview.csv')
 
 get_covers()
 # %%

@@ -87,5 +87,5 @@ for yr in range(2000,2023):
                 elo_dict[winner], elo_dict[loser], 50
             )  # 20 is the k-factor
 
-        df = pd.DataFrame(list(elo_dict.items()), columns=["Team", "ELO"])
+        df = pd.DataFrame(list(elo_dict.items()), columns=["Team", f"ELO .0"])
         df.to_csv(f'../data/elo/{year}_elo.csv')

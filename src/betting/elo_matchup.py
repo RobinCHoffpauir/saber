@@ -2,7 +2,7 @@ import pandas as pd
 from helpers import *
 # Sample DataFrame setup
 
-data = pd.read_csv('data/elo/2024_elo.csv')
+data = pd.read_csv('../../data/elo/2024_elo.csv')
 df = pd.DataFrame(data)
 
 # Function to calculate win probability
